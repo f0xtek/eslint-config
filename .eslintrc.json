@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb",
+    "prettier",
+    "plugin:node/recommended",
+    "plugin:jest/recommended",
+    "plugin:jest/style"
+  ],
+  "plugins": ["jest", "prettier", "node"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-console": "off",
+    "func-names": "warn",
+    "class-methods-use-this": "warn"
+  }
+}
